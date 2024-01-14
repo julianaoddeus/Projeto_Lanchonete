@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "vRSExZwRIVCf/Tn+h8bqYB9QGan3Ai9m+pmcu0/S9hejdc0XlnGtSFlKhSkrSpMFj/3wNalj+m6GOBbRTwLAMg==",
+  "dgSpecHash": "qJPuLnSNZ2jeEus+lhm24QRZXEVFJ6IOUp9yJBNQRLkw6bbTUn1xLmwJu2QCuh8wEvfyl98Dx3RNr1iMrMtilw==",
   "success": true,
   "projectFilePath": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\Lanchonete.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juliana\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\juliana\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\juliana\\.nuget\\packages\\fontawesome\\4.7.0\\fontawesome.4.7.0.nupkg.sha512",
     "C:\\Users\\juliana\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\juliana\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\juliana\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",

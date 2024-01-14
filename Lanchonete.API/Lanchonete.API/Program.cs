@@ -21,16 +21,6 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.UseStaticFiles(new StaticFileOptions
-{
-    FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot")),
-    RequestPath = "/wwwroot"
-});
-
-app.UseMvc();
-
-
-
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
