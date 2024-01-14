@@ -3,7 +3,7 @@ using Lanchonete.API.Models;
 
 namespace Lanchonete.API.Repositorios.Interfaces
 {
-    public interface ICategoriaDeRepositorio
+    public interface ICategoriaRepositorio
     {
         IEnumerable<Categoria> Categorias { get;}
         

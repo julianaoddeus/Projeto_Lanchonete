@@ -4,7 +4,7 @@ using Lanchonete.API.Repositorios.Interfaces;
 
 namespace Lanchonete.API.Repositorios
 {
-    public class CategoriaRepositorio : ICategoriaDeRepositorio
+    public class CategoriaRepositorio : ICategoriaRepositorio
     {
         private readonly AppDbContext _context;
         public CategoriaRepositorio(AppDbContext context)

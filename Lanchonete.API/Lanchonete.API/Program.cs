@@ -1,4 +1,6 @@
 using Lanchonete.API.Data.Context;
+using Lanchonete.API.Repositorios;
+using Lanchonete.API.Repositorios.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
@@ -10,6 +12,10 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+//Registrando o serviços usando os escopos(vida útil)dos serviços .
+builder.Services.AddScoped<ICategoriaRepositorio, CategoriaRepositorio>();
+builder.Services.AddScoped<ILancheRepositorio, LancheRepositorio>();
 
 var app = builder.Build();
 

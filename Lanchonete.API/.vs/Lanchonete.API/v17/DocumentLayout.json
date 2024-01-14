@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4AB2193E-DAB2-4126-80D0-3D4D27C86459}|Lanchonete.API\\Lanchonete.API.csproj|d:\\00_github\\projeto_lanchonete\\lanchonete.api\\lanchonete.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AB2193E-DAB2-4126-80D0-3D4D27C86459}|Lanchonete.API\\Lanchonete.API.csproj|solutionrelative:lanchonete.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AB2193E-DAB2-4126-80D0-3D4D27C86459}|Lanchonete.API\\Lanchonete.API.csproj|d:\\00_github\\projeto_lanchonete\\lanchonete.api\\lanchonete.api\\repositorios\\categoriarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AB2193E-DAB2-4126-80D0-3D4D27C86459}|Lanchonete.API\\Lanchonete.API.csproj|solutionrelative:lanchonete.api\\repositorios\\categoriarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AB2193E-DAB2-4126-80D0-3D4D27C86459}|Lanchonete.API\\Lanchonete.API.csproj|d:\\00_github\\projeto_lanchonete\\lanchonete.api\\lanchonete.api\\repositorios\\interfaces\\icategoriarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AB2193E-DAB2-4126-80D0-3D4D27C86459}|Lanchonete.API\\Lanchonete.API.csproj|solutionrelative:lanchonete.api\\repositorios\\interfaces\\icategoriarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +22,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICategoriaRepositorio.cs",
+              "DocumentMoniker": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\Repositorios\\Interfaces\\ICategoriaRepositorio.cs",
+              "RelativeDocumentMoniker": "Lanchonete.API\\Repositorios\\Interfaces\\ICategoriaRepositorio.cs",
+              "ToolTip": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\Repositorios\\Interfaces\\ICategoriaRepositorio.cs",
+              "RelativeToolTip": "Lanchonete.API\\Repositorios\\Interfaces\\ICategoriaRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-14T21:38:12.637Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriaRepositorio.cs",
+              "DocumentMoniker": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\Repositorios\\CategoriaRepositorio.cs",
+              "RelativeDocumentMoniker": "Lanchonete.API\\Repositorios\\CategoriaRepositorio.cs",
+              "ToolTip": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\Repositorios\\CategoriaRepositorio.cs",
+              "RelativeToolTip": "Lanchonete.API\\Repositorios\\CategoriaRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-14T21:38:19.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\Program.cs",
+              "RelativeDocumentMoniker": "Lanchonete.API\\Program.cs",
+              "ToolTip": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\Program.cs",
+              "RelativeToolTip": "Lanchonete.API\\Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-14T21:32:18.989Z",
+              "EditorCaption": ""
             }
           ]
         }
