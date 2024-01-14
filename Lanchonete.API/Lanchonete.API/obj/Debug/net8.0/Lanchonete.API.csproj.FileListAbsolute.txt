@@ -134,3 +134,4 @@ D:\00_GITHUB\Projeto_Lanchonete\Lanchonete.API\Lanchonete.API\obj\Debug\net8.0\r
 D:\00_GITHUB\Projeto_Lanchonete\Lanchonete.API\Lanchonete.API\obj\Debug\net8.0\Lanchonete.API.pdb
 D:\00_GITHUB\Projeto_Lanchonete\Lanchonete.API\Lanchonete.API\obj\Debug\net8.0\Lanchonete.API.genruntimeconfig.cache
 D:\00_GITHUB\Projeto_Lanchonete\Lanchonete.API\Lanchonete.API\obj\Debug\net8.0\ref\Lanchonete.API.dll
+D:\00_GITHUB\Projeto_Lanchonete\Lanchonete.API\Lanchonete.API\obj\Debug\net8.0\Lanchonete.API.sourcelink.json
