@@ -9,7 +9,7 @@ namespace Lanchonete.API.Data.Context
             :base(options) { }
 
         public DbSet<Categoria> Categorias { get; set; }
-        public DbSet<Lanche> Lanches { get; set; }
+        public DbSet<Lanche> Lanches { get; set; }       
 
     }
 }

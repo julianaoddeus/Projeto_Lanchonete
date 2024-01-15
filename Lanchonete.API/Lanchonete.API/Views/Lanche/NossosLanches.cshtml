@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Lanchonete.API.Models.Lanche>
+
+<div><h2>Todos os Lanches</h2></div>
+
+<div class="container">
+    @for (int i = 0; i < Model.Count(); i += 3)
+    {
+        <div class="row">
+            @foreach (var lanche in Model.Skip(i).Take(3))
+            {
+                <div class="col-sm-3">
+                    <div class="card mb-3" style="max-width: 540px; padding: 5px;">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-md-4">
+                                <img style="width: 500px;" src="/imagens/lanches/tradicional/x-bacon.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">@lanche.Nome</h5>
+                                    <p class="card-text">@lanche.Preco.ToString("c")</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="card-text"><small class="text-body-secondary">@lanche.DescricaoReduzida</small></p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
+
+
+
