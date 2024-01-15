@@ -11,11 +11,11 @@ namespace Lanchonete.API.Controllers
         {
             _lancheRepositorio = lancheRepositorio;
         }
-
         public IActionResult NossosLanches()
         {
             var lanches = _lancheRepositorio.lanches;
             return View(lanches);
         }
+
     }
 }

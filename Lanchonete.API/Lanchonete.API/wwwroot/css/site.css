@@ -21,6 +21,13 @@ body {
     margin-bottom: 60px;  
 }
 
+.btn-home--cardapio {
+    background: #F0B30A;
+    border-radius:5px;
+    color: #000000;
+}
+
+
 footer {
     background-color: #212021;
 }
