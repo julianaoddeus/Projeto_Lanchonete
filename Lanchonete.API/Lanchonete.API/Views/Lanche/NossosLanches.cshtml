@@ -1,35 +1,33 @@
-﻿@model IEnumerable<Lanchonete.API.Models.Lanche>
+﻿@model NossosLanchesViewModel
 
-<div><h2>Todos os Lanches</h2></div>
+<div><h2>@Model.CategoriaAtual</h2></div>
 
 <div class="container">
-    @for (int i = 0; i < Model.Count(); i += 3)
-    {
-        <div class="row">
-            @foreach (var lanche in Model.Skip(i).Take(3))
-            {
-                <div class="col-sm-3">
-                    <div class="card mb-3" style="max-width: 540px; padding: 5px;">
-                        <div class="row d-flex align-items-center">
-                            <div class="col-md-4">
-                                <img style="width: 500px;" src="/imagens/lanches/tradicional/x-bacon.jpg" class="img-fluid rounded-start" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">@lanche.Nome</h5>
-                                    <p class="card-text">@lanche.Preco.ToString("c")</p>
+
+    <div class="row" id="app">
+        @foreach (var lanche in Model.Lanches)
+        {
+           <div class="col-sm-3 col-md-12 col-lg-12">
+                <div class="card mb-3">
+                    <div id="player-3" class="player">
+                        <div class="wrapper">
+                            <div class="info-wrapper">
+                                <img src="~/imagens/lanches/tradicional/x-bacon.jpg" alt="imagem do lanche" />
+                                <div class="info">
+                                    <h1 id="titulo-musica">@lanche.Nome</h1>
+                                    <p id="nome-banda">@lanche.Preco.ToString("c") </p>
                                 </div>
                             </div>
-                        </div>
-                        <div>
-                            <p class="card-text"><small class="text-body-secondary">@lanche.DescricaoReduzida</small></p>
+                            <div class="controls horizontal">
+                                <p>@lanche.DescricaoReduzida</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            }
-        </div>
-    }
-</div>
+           </div>
+        }
+    </div>
 
+</div>
 
 

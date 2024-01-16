@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lanchonete.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+466c273160a637c41bf6c5f5d1e5daa031077532")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6fc2fe54b582a8d2d3788bcc8b24835ee5f905fa")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lanchonete.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lanchonete.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

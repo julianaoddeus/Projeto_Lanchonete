@@ -1,33 +1,91 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-    margin-bottom: 60px;  
+    margin-bottom: 60px;
 }
 
 .btn-home--cardapio {
     background: #F0B30A;
-    border-radius:5px;
+    border-radius: 5px;
     color: #000000;
 }
 
 
 footer {
     background-color: #212021;
+}
+
+/***************************************************/
+
+.player {
+    /*background-color: #2a2141;*/
+    padding: 28px;
+   /* border-radius: 10px;*/
+   
+}
+
+.player img {
+    width: 84px;
+    height: 84px;   
+}
+
+.info-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+
+.info {
+    color: #191818;
+}
+
+.info h1 {
+    font-size: 24px;
+    line-height: 100%;
+    font-weight: 700;
+    margin-bottom: 9.6px;
+}
+
+.info p {
+    opacity: 0.67;
+}
+
+.controls {
+  margin-top: 9px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.horizontal p {
+    color: #191818;
+}
+
+#app {
+    display: grid;    
+    grid-template-areas: "A B C";
+    gap: 10px;
+    place-content: center;
+   
+}
+
+#player-3 .wrapper {
+    width: 340px;
 }

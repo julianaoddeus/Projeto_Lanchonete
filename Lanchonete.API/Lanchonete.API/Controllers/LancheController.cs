@@ -1,4 +1,5 @@
 ﻿using Lanchonete.API.Repositorios.Interfaces;
+using Lanchonete.API.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Lanchonete.API.Controllers
@@ -13,8 +14,14 @@ namespace Lanchonete.API.Controllers
         }
         public IActionResult NossosLanches()
         {
-            var lanches = _lancheRepositorio.lanches;
-            return View(lanches);
+            //var lanches = _lancheRepositorio.lanches;
+            //return View(lanches);
+
+            var viewModel = new NossosLanchesViewModel();
+            viewModel.Lanches = _lancheRepositorio.lanches;
+            viewModel.CategoriaAtual = "Tradicional";
+
+            return View(viewModel);
         }
 
     }
