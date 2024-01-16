@@ -7,24 +7,7 @@
     <div class="row" id="app">
         @foreach (var lanche in Model.Lanches)
         {
-           <div class="col-sm-3 col-md-12 col-lg-12">
-                <div class="card mb-3">
-                    <div id="player-3" class="player">
-                        <div class="wrapper">
-                            <div class="info-wrapper">
-                                <img src="~/imagens/lanches/tradicional/x-bacon.jpg" alt="imagem do lanche" />
-                                <div class="info">
-                                    <h1 id="titulo-musica">@lanche.Nome</h1>
-                                    <p id="nome-banda">@lanche.Preco.ToString("c") </p>
-                                </div>
-                            </div>
-                            <div class="controls horizontal">
-                                <p>@lanche.DescricaoReduzida</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-           </div>
+            <partial name="_LanchesResumo" for="@lanche"/>
         }
     </div>
 

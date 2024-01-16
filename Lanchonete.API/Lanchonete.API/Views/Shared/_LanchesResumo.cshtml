@@ -1,0 +1,20 @@
+﻿@model Lanche
+
+<div class="col-sm-3 col-md-12 col-lg-12">
+    <div class="card mb-3">
+        <div id="player-3" class="player">
+            <div class="wrapper">
+                <div class="info-wrapper">
+                    <img src="~/imagens/lanches/tradicional/x-bacon.jpg" alt="imagem do lanche" />
+                    <div class="info">
+                        <h1 id="titulo-musica">@Model.Nome</h1>
+                        <p id="nome-banda">@Model.Preco.ToString("c") </p>
+                    </div>
+                </div>
+                <div class="controls horizontal">
+                    <p>@Model.DescricaoReduzida</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
