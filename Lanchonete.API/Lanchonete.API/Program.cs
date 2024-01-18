@@ -1,10 +1,7 @@
 using Lanchonete.API.Data.Context;
 using Lanchonete.API.Repositorios;
 using Lanchonete.API.Repositorios.Interfaces;
-using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.FileProviders;
-using Microsoft.Extensions.Hosting.Internal;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,13 +15,21 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddScoped<ICategoriaRepositorio, CategoriaRepositorio>();
 builder.Services.AddScoped<ILancheRepositorio, LancheRepositorio>();
 
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession(opt =>
+{
+    opt.IdleTimeout = TimeSpan.FromSeconds(5);
+    opt.Cookie.HttpOnly = true;
+    opt.Cookie.IsEssential = true;
+});
+
+
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+    app.UseExceptionHandler("/Home/Error");    
     app.UseHsts();
 }
 
@@ -34,6 +39,8 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+app.UseSession();
 
 app.MapControllerRoute(
     name: "default",
