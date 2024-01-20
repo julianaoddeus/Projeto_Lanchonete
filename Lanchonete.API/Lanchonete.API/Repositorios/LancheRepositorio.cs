@@ -12,7 +12,7 @@ namespace Lanchonete.API.Repositorios
         {
             _context = context;
         }     
-        public IEnumerable<Lanche> lanches => _context.Lanches
+        public IEnumerable<Lanche> Lanches => _context.Lanches
             .Include(c => c.Categoria);
 
         public IEnumerable<Lanche> LanchesPreferidos => _context.Lanches

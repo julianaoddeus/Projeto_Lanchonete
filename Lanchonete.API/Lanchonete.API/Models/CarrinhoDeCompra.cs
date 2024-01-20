@@ -3,10 +3,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Lanchonete.API.Models
 {
-    public class CarrinhoCompra
+    public class CarrinhoDeCompra
     {
         private readonly AppDbContext _context;
-        public CarrinhoCompra(AppDbContext context)
+        public CarrinhoDeCompra(AppDbContext context)
         {
             _context = context;
         }
@@ -14,7 +14,7 @@ namespace Lanchonete.API.Models
         public string Id { get; set; }
         public List<CarrinhoCompraItem> CarrinhoCompraItens { get; set; }
 
-        public static CarrinhoCompra ObterCarrinho(IServiceProvider services)
+        public static CarrinhoDeCompra ObterCarrinho(IServiceProvider services)
         {
             //define a sessão
             ISession session = services.GetRequiredService<IHttpContextAccessor>()?.HttpContext.Session;
@@ -28,7 +28,7 @@ namespace Lanchonete.API.Models
             //atribui o id a session
             session.SetString("Id", carrinhoId);
 
-            return new CarrinhoCompra(appDbContext)
+            return new CarrinhoDeCompra(appDbContext)
             {
                 Id = carrinhoId,
             };
@@ -38,13 +38,13 @@ namespace Lanchonete.API.Models
         {
             var carrinhoCompraItem = _context.CarrinhoCompraItens.FirstOrDefault(
                 s => s.Lanche.Id == lanche.Id &&
-                s.CarrinhoCompraId == Id);
+                s.CarrinhoDeCompraId == Id);
 
             if (carrinhoCompraItem == null)
             {
                 carrinhoCompraItem = new CarrinhoCompraItem
                 {
-                    CarrinhoCompraId = Id,
+                    CarrinhoDeCompraId = Id,
                     Lanche = lanche,
                     Quantidade = 1
                 };
@@ -56,7 +56,7 @@ namespace Lanchonete.API.Models
 
         public void RemoverDoCarrinho(Lanche lanche)
         {
-            var carrinhoCompraItem = _context.CarrinhoCompraItens.FirstOrDefault(f => f.Lanche.Id == lanche.Id && f.CarrinhoCompraId == Id);
+            var carrinhoCompraItem = _context.CarrinhoCompraItens.FirstOrDefault(f => f.Lanche.Id == lanche.Id && f.CarrinhoDeCompraId == Id);
             var quantidadeLocal = 0;
 
             if(carrinhoCompraItem != null)
@@ -75,7 +75,7 @@ namespace Lanchonete.API.Models
         public List<CarrinhoCompraItem> ObterCarrinhoCompraItens()
         {
             return CarrinhoCompraItens ?? (CarrinhoCompraItens = _context.CarrinhoCompraItens
-                    .Where(w => w.CarrinhoCompraId == Id)
+                    .Where(w => w.CarrinhoDeCompraId == Id)
                     .Include(s => s.Lanche)
                     .ToList());
         }
@@ -83,7 +83,7 @@ namespace Lanchonete.API.Models
         public void LimparCarrinho()
         {
             var itensDoCarrinho = _context.CarrinhoCompraItens
-                .Where(w => w.CarrinhoCompraId == Id);
+                .Where(w => w.CarrinhoDeCompraId == Id);
 
             _context.CarrinhoCompraItens.RemoveRange(itensDoCarrinho);
             _context.SaveChanges();
@@ -92,7 +92,7 @@ namespace Lanchonete.API.Models
         public decimal ObterCarrinhoCompraTotal()
         {
             return _context.CarrinhoCompraItens
-                .Where(w => w.CarrinhoCompraId == Id)
+                .Where(w => w.CarrinhoDeCompraId == Id)
                 .Select(s => s.Lanche.Preco * s.Quantidade).Sum();
         }
     }

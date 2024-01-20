@@ -9,6 +9,6 @@ namespace Lanchonete.API.Models
         public int Quantidade { get; set; }
         
         [StringLength(200)]
-        public string CarrinhoCompraId { get; set; }
+        public string CarrinhoDeCompraId { get; set; }
     }
 }

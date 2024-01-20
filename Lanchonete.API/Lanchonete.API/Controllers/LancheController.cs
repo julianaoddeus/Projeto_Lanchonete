@@ -18,7 +18,7 @@ namespace Lanchonete.API.Controllers
             //return View(lanches);
 
             var viewModel = new NossosLanchesViewModel();
-            viewModel.Lanches = _lancheRepositorio.lanches;
+            viewModel.Lanches = _lancheRepositorio.Lanches;
             viewModel.CategoriaAtual = "Tradicional";
 
             return View(viewModel);

@@ -1,4 +1,5 @@
 using Lanchonete.API.Data.Context;
+using Lanchonete.API.Models;
 using Lanchonete.API.Repositorios;
 using Lanchonete.API.Repositorios.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -12,10 +13,14 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 //Registrando o serviços usando os escopos(vida útil)dos serviços .
-builder.Services.AddScoped<ICategoriaRepositorio, CategoriaRepositorio>();
-builder.Services.AddScoped<ILancheRepositorio, LancheRepositorio>();
+builder.Services.AddTransient<ICategoriaRepositorio, CategoriaRepositorio>();
+builder.Services.AddTransient<ILancheRepositorio, LancheRepositorio>();
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+builder.Services.AddScoped(s => CarrinhoDeCompra.ObterCarrinho(s));
 
+builder.Services.AddControllersWithViews();
 builder.Services.AddDistributedMemoryCache();
+builder.Services.AddMemoryCache();
 builder.Services.AddSession(opt =>
 {
     opt.IdleTimeout = TimeSpan.FromSeconds(5);
