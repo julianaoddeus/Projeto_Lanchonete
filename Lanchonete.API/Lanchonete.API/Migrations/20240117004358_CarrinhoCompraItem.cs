@@ -18,7 +18,7 @@ namespace Lanchonete.API.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     LancheId = table.Column<int>(type: "int", nullable: false),
                     Quantidade = table.Column<int>(type: "int", nullable: false),
-                    CarrinhoCompraId = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false)
+                    CarrinhoDeCompraId = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false)
                 },
                 constraints: table =>
                 {

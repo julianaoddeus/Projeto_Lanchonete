@@ -26,12 +26,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\00_GITHUB\Projeto_Lanchonete\Lanchonete.API\Lanchonete.API
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/00_GITHUB/Projeto_Lanchonete/Lanchonete.API/Lanchonete.API/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[D:/00_GITHUB/Projeto_Lanchonete/Lanchonete.API/Lanchonete.API/Views/CarrinhoDeCompra/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmluaG9EZUNvbXByYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/00_GITHUB/Projeto_Lanchonete/Lanchonete.API/Lanchonete.API/Views/Lanche/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuY2hlXEluZGV4LmNzaHRtbA==
+[D:/00_GITHUB/Projeto_Lanchonete/Lanchonete.API/Lanchonete.API/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/00_GITHUB/Projeto_Lanchonete/Lanchonete.API/Lanchonete.API/Views/Lanche/NossosLanches.cshtml]
@@ -52,10 +52,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/00_GITHUB/Projeto_Lanchonete/Lanchonete.API/Lanchonete.API/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/00_GITHUB/Projeto_Lanchonete/Lanchonete.API/Lanchonete.API/Views/_Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/00_GITHUB/Projeto_Lanchonete/Lanchonete.API/Lanchonete.API/Views/_ViewImports.cshtml]

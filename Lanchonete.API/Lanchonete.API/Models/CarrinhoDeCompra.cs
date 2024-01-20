@@ -9,6 +9,7 @@ namespace Lanchonete.API.Models
         public CarrinhoDeCompra(AppDbContext context)
         {
             _context = context;
+            CarrinhoCompraItens = new List<CarrinhoCompraItem>();
         }
 
         public string Id { get; set; }
@@ -74,10 +75,10 @@ namespace Lanchonete.API.Models
 
         public List<CarrinhoCompraItem> ObterCarrinhoCompraItens()
         {
-            return CarrinhoCompraItens ?? (CarrinhoCompraItens = _context.CarrinhoCompraItens
+            return CarrinhoCompraItens ?? _context.CarrinhoCompraItens
                     .Where(w => w.CarrinhoDeCompraId == Id)
                     .Include(s => s.Lanche)
-                    .ToList());
+                    .ToList();
         }
 
         public void LimparCarrinho()
@@ -91,7 +92,7 @@ namespace Lanchonete.API.Models
 
         public decimal ObterCarrinhoCompraTotal()
         {
-            return _context.CarrinhoCompraItens
+           return _context.CarrinhoCompraItens
                 .Where(w => w.CarrinhoDeCompraId == Id)
                 .Select(s => s.Lanche.Preco * s.Quantidade).Sum();
         }
