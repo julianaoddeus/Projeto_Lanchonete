@@ -1,5 +1,10 @@
 ﻿using Lanchonete.API.Data.Context;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Lanchonete.API.Models
 {

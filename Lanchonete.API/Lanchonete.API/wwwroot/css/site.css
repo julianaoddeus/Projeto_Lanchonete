@@ -34,21 +34,17 @@ footer {
 
 /***************************************************/
 
-.player {
-    /*background-color: #2a2141;*/
+.lanche {
     padding: 28px;
-   /* border-radius: 10px;*/
-   
 }
 
-.player img {
-    width: 84px;
-    height: 84px;   
-}
+    .lanche img {
+        width: 84px;
+        height: 84px;
+    }
 
 .info-wrapper {
     display: flex;
-    align-items: center;
     gap: 28px;
 }
 
@@ -57,35 +53,61 @@ footer {
     color: #191818;
 }
 
-.info h1 {
-    font-size: 24px;
-    line-height: 100%;
-    font-weight: 700;
-    margin-bottom: 9.6px;
+    .info h1 {
+        font-size: 24px;
+        line-height: 100%;
+        font-weight: 700;
+        margin-bottom: 9.6px;
+    }
+
+    .info p {
+        opacity: 0.67;
+    }
+
+.descricao-lanche {
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
-.info p {
-    opacity: 0.67;
-}
 
-.controls {
-  margin-top: 9px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.horizontal p {
-    color: #191818;
-}
-
-#app {
-    display: grid;    
+#lista-lanche {
+    display: grid;
     grid-template-areas: "A B C";
-    gap: 10px;
-    place-content: center;
-   
 }
 
-#player-3 .wrapper {
+#lanche-tipo .wrapper {
     width: 340px;
+}
+
+.descricao {
+    margin-top: -15px;
+}
+
+/*contato*/
+.contato{
+   display: flex;
+   gap: 5px;
+}
+
+.contato a {
+    text-decoration: none;
+    color: black;    
+}
+.faixa-lateral {
+    background-color: #555;
+}
+
+.texto-destaque h1 {
+    font-size: 40px;
+    padding: 20px;
+}
+
+.imagem-destaque {
+    width: 85%;
+}
+
+.contato-conteudo{
+    margin-top: 20px;
 }

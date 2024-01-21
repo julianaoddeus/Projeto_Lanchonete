@@ -1,6 +1,7 @@
 ﻿using Lanchonete.API.Data.Context;
 using Lanchonete.API.Models;
 using Lanchonete.API.Repositorios.Interfaces;
+using System.Collections.Generic;
 
 namespace Lanchonete.API.Repositorios
 {

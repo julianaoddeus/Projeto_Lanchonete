@@ -2,7 +2,13 @@ using Lanchonete.API.Data.Context;
 using Lanchonete.API.Models;
 using Lanchonete.API.Repositorios;
 using Lanchonete.API.Repositorios.Interfaces;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using System;
 
 var builder = WebApplication.CreateBuilder(args);
 

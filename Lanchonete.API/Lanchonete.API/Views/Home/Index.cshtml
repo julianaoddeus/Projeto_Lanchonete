@@ -1,1 +1,15 @@
-﻿<partial name="_HomeLanchonete" />
+﻿@model HomeViewModel
+
+<partial name="_HomeLanchonete" />
+
+<div class="mt-4" style="background: #b2933d; width: 100 vh; padding:5px;"><h2>Os Preferidos da Semana</h2></div>
+
+
+
+<div class="row">
+    @foreach (var lanche in Model.LanchesPreferidos)
+    {
+        <partial name="_LanchesResumo" for="@lanche" />
+    }
+    <div class="m-4"></div>
+</div>

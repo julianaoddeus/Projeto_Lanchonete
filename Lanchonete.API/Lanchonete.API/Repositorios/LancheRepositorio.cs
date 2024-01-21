@@ -2,6 +2,8 @@
 using Lanchonete.API.Models;
 using Lanchonete.API.Repositorios.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Lanchonete.API.Repositorios
 {

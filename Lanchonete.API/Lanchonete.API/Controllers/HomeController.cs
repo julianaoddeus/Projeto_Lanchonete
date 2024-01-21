@@ -1,4 +1,6 @@
 using Lanchonete.API.Models;
+using Lanchonete.API.Repositorios.Interfaces;
+using Lanchonete.API.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -6,10 +8,20 @@ namespace Lanchonete.API.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly ILancheRepositorio _lacheRepositorio;
+
+        public HomeController(ILancheRepositorio lacheRepositorio)
+        {
+            _lacheRepositorio = lacheRepositorio;
+        }
 
         public IActionResult Index()
         {
-            return View();
+            var viewModel = new HomeViewModel
+            {
+                LanchesPreferidos = _lacheRepositorio.LanchesPreferidos,
+            };
+            return View(viewModel);
         }
 
 
