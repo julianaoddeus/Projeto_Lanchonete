@@ -8,8 +8,6 @@
                     <img src="~/imagens/lanches/tradicional/x-bacon.png" alt="imagem do lanche" />
                     <div class="info descricao-lanche">
                         <a asp-controller="Lanche" asp-action="Details" asp-route-id="@Model.Id" data-toggle="modal" data-target="#detailModalLabel">@Model.Nome</a>
-                       
-
                         <p>@Model.Preco.ToString("c") </p>
                         <p class="descricao" data-bs-toggle="tooltip" data-bs-placement="top" title="@Model.DescricaoReduzida">
                             @Model.DescricaoReduzida
