@@ -29,18 +29,10 @@ namespace Lanchonete.API.Controllers
             }
             else
             {
-                if(string.Equals("Tradicional", categoria, StringComparison.OrdinalIgnoreCase))
-                {
-                    lanches = _lancheRepositorio.Lanches
-                        .Where(w => w.Categoria.Nome.Equals("Tradicional"))
-                        .OrderBy( o => o.Nome);
-                }
-                else
-                {
-                    lanches = _lancheRepositorio.Lanches
-                        .Where(w => w.Categoria.Nome.Equals("Natural"))
-                        .OrderBy(o => o.Nome);
-                }
+                lanches = _lancheRepositorio.Lanches
+                .Where(w => w.Categoria.Nome == categoria)
+                .OrderBy(o => o.Nome);
+
                 categoriaAtual = categoria;
             }
 
@@ -50,6 +42,13 @@ namespace Lanchonete.API.Controllers
                 CategoriaAtual = categoriaAtual
             };
             return View(viewModel);
+        }
+
+        public IActionResult Details(int id)
+        {
+            var lanche = _lancheRepositorio.Lanches.FirstOrDefault(w => w.Id == id);           
+            return View(lanche);
+
         }
 
     }

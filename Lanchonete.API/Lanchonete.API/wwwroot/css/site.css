@@ -38,10 +38,10 @@ footer {
     padding: 28px;
 }
 
-    .lanche img {
-        width: 84px;
-        height: 84px;
-    }
+.lanche img {
+    width: 84px;
+    height: 84px;
+}
 
 .info-wrapper {
     display: flex;
@@ -53,23 +53,17 @@ footer {
     color: #191818;
 }
 
-    .info h1 {
-        font-size: 24px;
-        line-height: 100%;
-        font-weight: 700;
-        margin-bottom: 9.6px;
-    }
-
-    .info p {
-        opacity: 0.67;
-    }
-
-.descricao-lanche {
-    white-space: nowrap;
-    width: 100%;
-    overflow: hidden;
-    text-overflow: ellipsis;
+.info h1 {
+    font-size: 24px;
+    line-height: 100%;
+    font-weight: 700;
+    margin-bottom: 9.6px;
 }
+
+.info p {
+    opacity: 0.67;
+}
+
 
 
 #lista-lanche {
@@ -78,17 +72,24 @@ footer {
 }
 
 #lanche-tipo .wrapper {
-    width: 340px;
+    width: 440px;
 }
 
 .descricao {
     margin-top: -15px;
+    width: 100%;   
+
+    
 }
 
+.lanche-nome {
+    text-decoration: underline;
+    cursor: pointer;
+}
 /*contato*/
-.contato{
-   display: flex;
-   gap: 5px;
+.contato {
+    display: flex;
+    gap: 5px;
 }
 
 .contato a {

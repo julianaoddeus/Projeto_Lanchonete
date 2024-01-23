@@ -14,12 +14,8 @@ namespace Lanchonete.API.Components
         }
         public IViewComponentResult Invoke()
         {
-            //var itens = _carrinhoDeCompra.ObterCarrinhoCompraItens();
-            var itens = new List<CarrinhoCompraItem>
-            {
-                new CarrinhoCompraItem(),
-                new CarrinhoCompraItem()
-            };
+            var itens = _carrinhoDeCompra.ObterCarrinhoCompraItens();
+           
             _carrinhoDeCompra.CarrinhoCompraItens = itens;
 
             var carrinhoItensviewModel = new CarrinhoDeCompraViewModel

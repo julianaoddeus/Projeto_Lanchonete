@@ -41,40 +41,76 @@
       "PackagePath": "staticwebassets\\imagens\\home\\imagem-004.jpg"
     },
     {
+      "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\lanches\\natural\\Sanduiche-natural-sendo-um-dos-3-lanches-rapidos-e-faceisImagem-canva.jpg",
+      "PackagePath": "staticwebassets\\imagens\\lanches\\natural\\Sanduiche-natural-sendo-um-dos-3-lanches-rapidos-e-faceisImagem-canva.jpg"
+    },
+    {
       "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\lanches\\natural\\n-frango.png",
       "PackagePath": "staticwebassets\\imagens\\lanches\\natural\\n-frango.png"
     },
     {
-      "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\lanches\\natural\\n-peru.jpg",
-      "PackagePath": "staticwebassets\\imagens\\lanches\\natural\\n-peru.jpg"
+      "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\lanches\\natural\\n-peru.jpg.png",
+      "PackagePath": "staticwebassets\\imagens\\lanches\\natural\\n-peru.jpg.png"
     },
     {
       "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\lanches\\natural\\n-presunto.png",
       "PackagePath": "staticwebassets\\imagens\\lanches\\natural\\n-presunto.png"
     },
     {
+      "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\lanches\\tradicional\\hamburguer-de-carne-fresca-isolado-em-fundo-transparente.zip",
+      "PackagePath": "staticwebassets\\imagens\\lanches\\tradicional\\hamburguer-de-carne-fresca-isolado-em-fundo-transparente.zip"
+    },
+    {
       "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\lanches\\tradicional\\x-bacon.jpg",
       "PackagePath": "staticwebassets\\imagens\\lanches\\tradicional\\x-bacon.jpg"
+    },
+    {
+      "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\lanches\\tradicional\\x-bacon.png",
+      "PackagePath": "staticwebassets\\imagens\\lanches\\tradicional\\x-bacon.png"
     },
     {
       "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\lanches\\tradicional\\x-burger.jpg",
       "PackagePath": "staticwebassets\\imagens\\lanches\\tradicional\\x-burger.jpg"
     },
     {
+      "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\lanches\\tradicional\\x-burger.png",
+      "PackagePath": "staticwebassets\\imagens\\lanches\\tradicional\\x-burger.png"
+    },
+    {
       "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\lanches\\tradicional\\x-duplo-bacon.jpg",
       "PackagePath": "staticwebassets\\imagens\\lanches\\tradicional\\x-duplo-bacon.jpg"
+    },
+    {
+      "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\lanches\\tradicional\\x-duplo-bacon.png",
+      "PackagePath": "staticwebassets\\imagens\\lanches\\tradicional\\x-duplo-bacon.png"
     },
     {
       "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\lanches\\tradicional\\x-duplo-burger.jpg",
       "PackagePath": "staticwebassets\\imagens\\lanches\\tradicional\\x-duplo-burger.jpg"
     },
     {
+      "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\lanches\\tradicional\\x-duplo-burger.png",
+      "PackagePath": "staticwebassets\\imagens\\lanches\\tradicional\\x-duplo-burger.png"
+    },
+    {
       "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\lanches\\tradicional\\x-futuro.jpg",
       "PackagePath": "staticwebassets\\imagens\\lanches\\tradicional\\x-futuro.jpg"
     },
     {
+      "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\lanches\\tradicional\\x-futuro.png",
+      "PackagePath": "staticwebassets\\imagens\\lanches\\tradicional\\x-futuro.png"
+    },
+    {
       "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\lanches\\tradicional\\x-salada.jpg",
       "PackagePath": "staticwebassets\\imagens\\lanches\\tradicional\\x-salada.jpg"
+    },
+    {
+      "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\lanches\\tradicional\\x-salada.png",
+      "PackagePath": "staticwebassets\\imagens\\lanches\\tradicional\\x-salada.png"
+    },
+    {
+      "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\lanches\\tradicional\\zigni-isolado-em-fundo-transparente (1).zip",
+      "PackagePath": "staticwebassets\\imagens\\lanches\\tradicional\\zigni-isolado-em-fundo-transparente (1).zip"
     },
     {
       "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\js\\site.js",
