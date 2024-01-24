@@ -63,7 +63,10 @@ namespace Lanchonete.API.Models
 
         public int RemoverDoCarrinho(Lanche lanche)
         {
-            var carrinhoCompraItem = _context.CarrinhoCompraItens.FirstOrDefault(f => f.Lanche.Id == lanche.Id && f.CarrinhoDeCompraId == Id);
+            var carrinhoCompraItem = _context.CarrinhoCompraItens.FirstOrDefault(
+                f => f.Lanche.Id == lanche.Id && 
+                f.CarrinhoDeCompraId == Id);
+
             var quantidadeLocal = 0;
 
             if(carrinhoCompraItem != null)
