@@ -29,7 +29,7 @@ namespace Lanchonete.API.Models
             var appDbContext = services.GetService<AppDbContext>();
 
             // obter ou gerar o id do carrinho
-            string carrinhoId = session.GetString("id") ?? Guid.NewGuid().ToString();
+            string carrinhoId = session.GetString("Id") ?? Guid.NewGuid().ToString();
 
             //atribui o id a session
             session.SetString("Id", carrinhoId);
@@ -54,13 +54,14 @@ namespace Lanchonete.API.Models
                     Lanche = lanche,
                     Quantidade = 1
                 };
+                _context.CarrinhoCompraItens.Add(carrinhoCompraItem);
             }
             else carrinhoCompraItem.Quantidade++;
 
             _context.SaveChanges();
         }
 
-        public void RemoverDoCarrinho(Lanche lanche)
+        public int RemoverDoCarrinho(Lanche lanche)
         {
             var carrinhoCompraItem = _context.CarrinhoCompraItens.FirstOrDefault(f => f.Lanche.Id == lanche.Id && f.CarrinhoDeCompraId == Id);
             var quantidadeLocal = 0;
@@ -76,14 +77,16 @@ namespace Lanchonete.API.Models
             }
             _context.SaveChanges();
            
+            return quantidadeLocal;
         }
 
         public List<CarrinhoCompraItem> ObterCarrinhoCompraItens()
         {
-            return CarrinhoCompraItens ?? _context.CarrinhoCompraItens
+            var result =  _context.CarrinhoCompraItens
                     .Where(w => w.CarrinhoDeCompraId == Id)
                     .Include(s => s.Lanche)
                     .ToList();
+            return result;
         }
 
         public void LimparCarrinho()
