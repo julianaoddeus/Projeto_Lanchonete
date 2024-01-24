@@ -7,12 +7,8 @@
       "RelativeMoniker": "D:0:0:{4AB2193E-DAB2-4126-80D0-3D4D27C86459}|Lanchonete.API\\Lanchonete.API.csproj|solutionrelative:lanchonete.api\\views\\shared\\_lanchesresumo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AB2193E-DAB2-4126-80D0-3D4D27C86459}|Lanchonete.API\\Lanchonete.API.csproj|d:\\00_github\\projeto_lanchonete\\lanchonete.api\\lanchonete.api\\controllers\\lanchecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AB2193E-DAB2-4126-80D0-3D4D27C86459}|Lanchonete.API\\Lanchonete.API.csproj|solutionrelative:lanchonete.api\\controllers\\lanchecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AB2193E-DAB2-4126-80D0-3D4D27C86459}|Lanchonete.API\\Lanchonete.API.csproj|d:\\00_github\\projeto_lanchonete\\lanchonete.api\\lanchonete.api\\views\\lanche\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4AB2193E-DAB2-4126-80D0-3D4D27C86459}|Lanchonete.API\\Lanchonete.API.csproj|solutionrelative:lanchonete.api\\views\\lanche\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4AB2193E-DAB2-4126-80D0-3D4D27C86459}|Lanchonete.API\\Lanchonete.API.csproj|d:\\00_github\\projeto_lanchonete\\lanchonete.api\\lanchonete.api\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4AB2193E-DAB2-4126-80D0-3D4D27C86459}|Lanchonete.API\\Lanchonete.API.csproj|solutionrelative:lanchonete.api\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\Views\\Lanche\\Details.cshtml",
-              "RelativeDocumentMoniker": "Lanchonete.API\\Views\\Lanche\\Details.cshtml",
-              "ToolTip": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\Views\\Lanche\\Details.cshtml",
-              "RelativeToolTip": "Lanchonete.API\\Views\\Lanche\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-01-23T01:26:26.24Z",
-              "IsPinned": true
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -48,14 +31,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LancheController.cs",
-              "DocumentMoniker": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\Controllers\\LancheController.cs",
-              "RelativeDocumentMoniker": "Lanchonete.API\\Controllers\\LancheController.cs",
-              "ToolTip": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\Controllers\\LancheController.cs",
-              "RelativeToolTip": "Lanchonete.API\\Controllers\\LancheController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-01-23T22:33:36.272Z",
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Lanchonete.API\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Lanchonete.API\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAAHQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-01-24T00:44:17.6Z",
               "EditorCaption": ""
             },
             {
@@ -66,9 +49,9 @@
               "RelativeDocumentMoniker": "Lanchonete.API\\Views\\Shared\\_LanchesResumo.cshtml",
               "ToolTip": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\Views\\Shared\\_LanchesResumo.cshtml",
               "RelativeToolTip": "Lanchonete.API\\Views\\Shared\\_LanchesResumo.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA3AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAB0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-01-21T23:44:30.255Z",
+              "WhenOpened": "2024-01-24T00:43:51.006Z",
               "EditorCaption": ""
             }
           ]

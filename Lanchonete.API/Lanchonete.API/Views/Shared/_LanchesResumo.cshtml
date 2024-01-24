@@ -1,22 +1,24 @@
 ﻿@model Lanche
 
 <div class="col-sm-3 col-md-12 col-lg-12">
-    <div class="card mb-3">
-        <div id="lanche-tipo" class="lanche">
-            <div class="wrapper">
-                <div class="info-wrapper">
-                    <img src="~/imagens/lanches/tradicional/x-bacon.png" alt="imagem do lanche" />
-                    <div class="info descricao-lanche">
-                        <a asp-controller="Lanche" asp-action="Details" asp-route-id="@Model.Id" data-toggle="modal" data-target="#detailModalLabel">@Model.Nome</a>
-                        <p>@Model.Preco.ToString("c") </p>
-                        <p class="descricao" data-bs-toggle="tooltip" data-bs-placement="top" title="@Model.DescricaoReduzida">
-                            @Model.DescricaoReduzida
-                        </p>
-                        <div>
-                            <p class="button">
-                                <a class="btn btn-outline-danger" id="card-btn" asp-controller="CarrinhoDeCompra" asp-action="AdicionarItemNoCarrinhoDeCompra"
-                                   asp-route-Id="@Model.Id">Incluir no carrinho</a>
+    <div>
+        <div class="mb-3">
+            <div id="lanche-tipo" class="lanche">
+                <div class="wrapper">
+                    <div class="info-wrapper">
+                        <img src="~/imagens/lanches/tradicional/x-bacon.png" alt="imagem do lanche" />
+                        <div class="info descricao-lanche">
+                            <a asp-controller="Lanche" asp-action="Details" asp-route-id="@Model.Id">@Model.Nome</a>
+                            <p>@Model.Preco.ToString("c") </p>
+                            <p class="descricao" data-bs-toggle="tooltip" data-bs-placement="top" title="@Model.DescricaoReduzida">
+                                @Model.DescricaoReduzida
                             </p>
+                            <div>
+                                <p class="button">
+                                    <a class="btn btn-outline-danger" id="card-btn" asp-controller="CarrinhoDeCompra" asp-action="AdicionarItemNoCarrinhoDeCompra"
+                                       asp-route-Id="@Model.Id">Incluir no carrinho</a>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -24,8 +26,6 @@
         </div>
     </div>
 </div>
-
 @* modal *@
-
 
 

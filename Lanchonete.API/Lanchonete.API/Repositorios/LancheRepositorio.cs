@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 namespace Lanchonete.API.Repositorios
-{
+{    
     public class LancheRepositorio : ILancheRepositorio
     {
         private readonly AppDbContext _context;
@@ -14,7 +14,7 @@ namespace Lanchonete.API.Repositorios
         {
             _context = context;
         }     
-        public IEnumerable<Lanche> Lanches => _context.Lanches
+         public IEnumerable<Lanche> Lanches => _context.Lanches
             .Include(c => c.Categoria);
 
         public IEnumerable<Lanche> LanchesPreferidos => _context.Lanches
@@ -23,7 +23,7 @@ namespace Lanchonete.API.Repositorios
 
         public Lanche GetLancheById(int id)
         {
-           return  _context.Lanches.FirstOrDefault(f => f.Id == id);       
+           return   _context.Lanches.FirstOrDefault(f => f.Id == id);       
         }
     }
 }
