@@ -26,15 +26,15 @@ namespace Lanchonete.API.Models
             ISession session = services.GetRequiredService<IHttpContextAccessor>()?.HttpContext.Session;
 
             //obtem  um serviço do tipo do nosso contexto
-            var appDbContext = services.GetService<AppDbContext>();
+            var context = services.GetService<AppDbContext>();
 
             // obter ou gerar o id do carrinho
-            string carrinhoId = session.GetString("Id") ?? Guid.NewGuid().ToString();
+            string carrinhoId = session.GetString("CarrinhoId") ?? Guid.NewGuid().ToString();
 
             //atribui o id a session
-            session.SetString("Id", carrinhoId);
+            session.SetString("CarrinhoId", carrinhoId);
 
-            return new CarrinhoDeCompra(appDbContext)
+            return new CarrinhoDeCompra(context)
             {
                 Id = carrinhoId,
             };

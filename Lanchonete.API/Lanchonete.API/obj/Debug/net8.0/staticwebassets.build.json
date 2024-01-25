@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "G+FezPFjx9fDRfOUqpt9RnZuyxDmPZJiP6IcHcnDBQ0=",
+  "Hash": "5h/XLFx8zy3azy2bqby/zwl911BrSvt7k16pcQsCDQU=",
   "Source": "Lanchonete.API",
   "BasePath": "_content/Lanchonete.API",
   "Mode": "Default",
@@ -224,6 +224,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagens\\home\\imagem-004.jpg"
+    },
+    {
+      "Identity": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\lanches\\natural\\JetBrains.ReSharper.2023.3.3.web.exe",
+      "SourceId": "Lanchonete.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\",
+      "BasePath": "_content/Lanchonete.API",
+      "RelativePath": "imagens/lanches/natural/JetBrains.ReSharper.2023.3.3.web.exe",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\lanches\\natural\\JetBrains.ReSharper.2023.3.3.web.exe"
     },
     {
       "Identity": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\lanches\\natural\\n-frango.png",
