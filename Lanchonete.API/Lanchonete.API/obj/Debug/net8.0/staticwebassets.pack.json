@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\backgorund.png",
+      "PackagePath": "staticwebassets\\imagens\\backgorund.png"
+    },
+    {
       "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\carrinho\\carrinho_home.png",
       "PackagePath": "staticwebassets\\imagens\\carrinho\\carrinho_home.png"
     },
@@ -111,6 +115,10 @@
     {
       "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\lanches\\tradicional\\zigni-isolado-em-fundo-transparente (1).zip",
       "PackagePath": "staticwebassets\\imagens\\lanches\\tradicional\\zigni-isolado-em-fundo-transparente (1).zip"
+    },
+    {
+      "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\logo.png",
+      "PackagePath": "staticwebassets\\imagens\\logo.png"
     },
     {
       "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\js\\site.js",
