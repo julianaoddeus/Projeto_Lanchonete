@@ -27,6 +27,9 @@ body {
     color: #000000;
 }
 
+. nav-list {
+    text-align: center;
+}
 
 footer {
     background-color: #212021;
@@ -38,14 +41,14 @@ footer {
     padding: 35px 30px 0px 5px;
 }
 
-.lanche img {
-    width: 84px;
-    height: 84px;
-}
+    .lanche img {
+        width: 84px;
+        height: 84px;
+    }
 
 .info-wrapper {
     display: flex;
-    gap: 8px;
+    
 }
 
 
@@ -53,22 +56,22 @@ footer {
     color: #191818;
 }
 
-.info h1 {
-    font-size: 24px;
-    line-height: 100%;
-    font-weight: 700;
-    margin-bottom: 9.6px;
-}
+    .info h1 {
+        font-size: 24px;
+        line-height: 100%;
+        font-weight: 700;
+        margin-bottom: 9.6px;
+    }
 
-.info p {
-    opacity: 0.67;   
-}
+    .info p {
+        opacity: 0.67;
+    }
 
 
 
 #lista-lanche {
     display: grid;
-    grid-template-areas: "A B C";
+    grid-template-areas: "A B C";        
 }
 
 #lanche-tipo .wrapper {
@@ -79,7 +82,7 @@ footer {
     margin-top: -15px;
     width: 100%;
     white-space: nowrap;
-    font-size: .9em;
+    font-size: 11px;
 }
 
 .lanche-nome {
@@ -92,13 +95,11 @@ footer {
     gap: 5px;
 }
 
-.contato a {
-    text-decoration: none;
-    color: black;    
-}
-.faixa-lateral {
-    background-color: #555;
-}
+    .contato a {
+        text-decoration: none;
+        color: black;
+    }
+
 
 .texto-destaque h1 {
     font-size: 40px;
@@ -109,10 +110,11 @@ footer {
     width: 85%;
 }
 
-.contato-conteudo{
+.contato-conteudo {
     margin-top: 20px;
 }
 
 a {
     text-decoration: none;
 }
+

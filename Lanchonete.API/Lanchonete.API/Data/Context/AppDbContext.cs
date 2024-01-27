@@ -11,6 +11,8 @@ namespace Lanchonete.API.Data.Context
         public DbSet<Categoria> Categorias { get; set; }
         public DbSet<Lanche> Lanches { get; set; }       
         public DbSet<CarrinhoCompraItem> CarrinhoCompraItens { get; set; }       
+        public DbSet<Bebida> Bebidas { get; set; }       
+        public DbSet<Sobremesa> Sobremesas { get; set; }       
 
     }
 }
