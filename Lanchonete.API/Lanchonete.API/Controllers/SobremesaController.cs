@@ -15,7 +15,7 @@ namespace Lanchonete.API.Controllers
         {
             _sobremesaRepositorio = sobremesaRepositorio;
         }
-        public IActionResult Sobremesa(string categoria)
+        public IActionResult Sobremesas(string categoria)
         {
             IEnumerable<Sobremesa> sobremesas;
             string categoriaAtual = string.Empty;

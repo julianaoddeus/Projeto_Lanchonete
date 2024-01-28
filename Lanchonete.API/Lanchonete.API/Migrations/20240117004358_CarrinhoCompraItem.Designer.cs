@@ -32,7 +32,7 @@ namespace Lanchonete.API.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("CarrinhoCompraId")
+                    b.Property<string>("CarrinhoDeCompraId")
                         .IsRequired()
                         .HasMaxLength(200)
                         .HasColumnType("nvarchar(200)");

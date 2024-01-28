@@ -21,6 +21,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 //Registrando o serviços usando os escopos(vida útil)dos serviços .
 builder.Services.AddTransient<ICategoriaRepositorio, CategoriaRepositorio>();
 builder.Services.AddTransient<ILancheRepositorio, LancheRepositorio>();
+builder.Services.AddTransient<ISobremesaRepositorio, SobremesaRepositorio>();
+builder.Services.AddTransient<IBebidaRepositorio, BebidaRepositorio>();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddScoped(s => CarrinhoDeCompra.ObterCarrinho(s));
 

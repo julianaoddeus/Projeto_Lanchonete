@@ -7,13 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="Views\Shared\_BebidaResumo.cshtml" />
-    <Content Remove="Views\Shared\_SobremesaResumo.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Include="Views\Shared\_BebidaResumo.cshtml" />
-    <Compile Include="Views\Shared\_SobremesaResumo.cshtml" />
+    <Compile Remove="Common\Interfaces\**" />
+    <Content Remove="Common\Interfaces\**" />
+    <EmbeddedResource Remove="Common\Interfaces\**" />
+    <None Remove="Common\Interfaces\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -30,10 +27,6 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Common\Interfaces\" />
   </ItemGroup>
 
 </Project>

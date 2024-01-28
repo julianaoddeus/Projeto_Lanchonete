@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\00_GITHUB\Projeto_Lanchonete\Lanchonete.API\Lanchonete.API
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/00_GITHUB/Projeto_Lanchonete/Lanchonete.API/Lanchonete.API/Views/Bebida/Bebidas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmViaWRhXEJlYmlkYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/00_GITHUB/Projeto_Lanchonete/Lanchonete.API/Lanchonete.API/Views/CarrinhoDeCompra/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmluaG9EZUNvbXByYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -58,6 +62,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/00_GITHUB/Projeto_Lanchonete/Lanchonete.API/Lanchonete.API/Views/Shared/_BebidasResumo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CZWJpZGFzUmVzdW1vLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/00_GITHUB/Projeto_Lanchonete/Lanchonete.API/Lanchonete.API/Views/Shared/_HomeLanchonete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ib21lTGFuY2hvbmV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -66,8 +74,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYW5jaGVzUmVzdW1vLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/00_GITHUB/Projeto_Lanchonete/Lanchonete.API/Lanchonete.API/Views/Shared/_SobremesasResumo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Tb2JyZW1lc2FzUmVzdW1vLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/00_GITHUB/Projeto_Lanchonete/Lanchonete.API/Lanchonete.API/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/00_GITHUB/Projeto_Lanchonete/Lanchonete.API/Lanchonete.API/Views/Sobremesa/Sobremesas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29icmVtZXNhXFNvYnJlbWVzYXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/00_GITHUB/Projeto_Lanchonete/Lanchonete.API/Lanchonete.API/Views/_ViewImports.cshtml]

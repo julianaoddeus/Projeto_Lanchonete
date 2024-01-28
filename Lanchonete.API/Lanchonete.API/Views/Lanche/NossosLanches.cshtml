@@ -6,17 +6,17 @@
     <h2>@Model.CategoriaAtual</h2>
    
         
-    <div class="card text-center">
+    <div class="card">
         <div class="card-header">
             <ul class="nav nav-tabs card-header-tabs">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="true" href="#">Lanches</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Bebidas</a>
+                    <a asp-controller="Bebida" asp-action="Bebidas" class="nav-link">Bebidas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Sobremesas</a>
+                    <a asp-controller="Sobremesa" asp-action="Sobremesas" class="nav-link">Sobremesas</a>
                 </li>
             </ul>
         </div>
