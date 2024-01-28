@@ -1,0 +1,17 @@
+﻿@model BebidaViewModel
+
+<div class="container">
+
+    <h2>@Model.CategoriaAtual</h2>
+
+    <div class="card">        
+        <div class="card-body">
+            <div class="row card mb-3" id="lista-lanche">
+                @foreach (var bebida in Model.Bebidas)
+                {
+                    <partial name="_BebidasResumo" for="@bebida" />
+                }
+            </div>
+        </div>
+
+    </div>

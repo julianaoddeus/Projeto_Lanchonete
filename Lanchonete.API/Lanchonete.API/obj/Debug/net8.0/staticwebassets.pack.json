@@ -17,6 +17,30 @@
       "PackagePath": "staticwebassets\\imagens\\backgorund.png"
     },
     {
+      "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\bebidas\\cervejas\\heineken.png",
+      "PackagePath": "staticwebassets\\imagens\\bebidas\\cervejas\\heineken.png"
+    },
+    {
+      "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\bebidas\\cervejas\\itaipava.png",
+      "PackagePath": "staticwebassets\\imagens\\bebidas\\cervejas\\itaipava.png"
+    },
+    {
+      "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\bebidas\\cervejas\\theresopolis.png",
+      "PackagePath": "staticwebassets\\imagens\\bebidas\\cervejas\\theresopolis.png"
+    },
+    {
+      "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\bebidas\\sucos\\goiaba.png",
+      "PackagePath": "staticwebassets\\imagens\\bebidas\\sucos\\goiaba.png"
+    },
+    {
+      "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\bebidas\\sucos\\laranja.png",
+      "PackagePath": "staticwebassets\\imagens\\bebidas\\sucos\\laranja.png"
+    },
+    {
+      "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\bebidas\\sucos\\uva.png",
+      "PackagePath": "staticwebassets\\imagens\\bebidas\\sucos\\uva.png"
+    },
+    {
       "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\carrinho\\carrinho_home.png",
       "PackagePath": "staticwebassets\\imagens\\carrinho\\carrinho_home.png"
     },
@@ -119,6 +143,18 @@
     {
       "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\logo.png",
       "PackagePath": "staticwebassets\\imagens\\logo.png"
+    },
+    {
+      "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\sobremesas\\bolo_chocolate.png",
+      "PackagePath": "staticwebassets\\imagens\\sobremesas\\bolo_chocolate.png"
+    },
+    {
+      "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\sobremesas\\bolo_morango.png",
+      "PackagePath": "staticwebassets\\imagens\\sobremesas\\bolo_morango.png"
+    },
+    {
+      "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\imagens\\sobremesas\\cupcakes.png",
+      "PackagePath": "staticwebassets\\imagens\\sobremesas\\cupcakes.png"
     },
     {
       "Id": "D:\\00_GITHUB\\Projeto_Lanchonete\\Lanchonete.API\\Lanchonete.API\\wwwroot\\js\\site.js",

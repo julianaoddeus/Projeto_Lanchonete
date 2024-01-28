@@ -10,19 +10,13 @@ namespace Lanchonete.API.Migrations
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.RenameColumn(
-                name: "CarrinhoCompraId",
-                table: "CarrinhoCompraItens",
-                newName: "CarrinhoDeCompraId");
+           
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.RenameColumn(
-                name: "CarrinhoDeCompraId",
-                table: "CarrinhoCompraItens",
-                newName: "CarrinhoCompraId");
+           
         }
     }
 }
