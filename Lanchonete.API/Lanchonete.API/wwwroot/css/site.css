@@ -48,7 +48,6 @@ footer {
 
 .info-wrapper {
     display: flex;
-    
 }
 
 
@@ -71,7 +70,7 @@ footer {
 
 #lista-lanche {
     display: grid;
-    grid-template-areas: "A B C";        
+    grid-template-areas: "A B C";
 }
 
 #lanche-tipo .wrapper {
@@ -89,16 +88,6 @@ footer {
     text-decoration: underline;
     cursor: pointer;
 }
-/*contato*/
-.contato {
-    display: flex;
-    gap: 5px;
-}
-
-    .contato a {
-        text-decoration: none;
-        color: black;
-    }
 
 
 .texto-destaque h1 {
@@ -116,5 +105,25 @@ footer {
 
 a {
     text-decoration: none;
+    color: #000;
 }
 
+/*contato*/
+.contato {
+    display: flex;
+    gap: 5px;
+}
+
+    .contato a {
+        text-decoration: none;
+        color: black;
+    }
+
+.ativo {
+    border-bottom: 2px solid #ff6a00;
+    transition: border-bottom 0.3s ease;
+}
+
+    .ativo:active {
+        border-bottom: #ff6a00;
+    }
