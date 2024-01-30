@@ -24,7 +24,7 @@ namespace Lanchonete.API.Controllers
             if (string.IsNullOrEmpty(categoria))
             {
                 bebidas = _bebidaRepositorio.Bebidas.OrderBy(b => b.Id);
-                categoriaAtual = "Todos as bebidas";
+                categoriaAtual = "Bebidas";
             }
             else
             {

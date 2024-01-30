@@ -24,22 +24,22 @@ namespace Lanchonete.API.Migrations
             var imagesHelper = new ImagesHelper();
 
             migrationBuilder.Sql("INSERT INTO Bebidas(CategoriaId, Nome, Descricao, Preco,ImagemUrl, ImagemThumbmailUrl, EmEstoque)" +
-            $"VALUES(3,'Uva','Suco natural 300ml', 17.50,'{imagesHelper.ObterCaminhoURLBebidas("uva")}','{imagesHelper.ObterCaminhoURLBebidas("uva")}',1)");
+            $"VALUES(3,'Uva','Suco natural 300ml', 17.50,'{imagesHelper.ObterCaminhoURLBebidaNatural("uva")}','{imagesHelper.ObterCaminhoURLBebidaNatural("uva")}',1)");
             
             migrationBuilder.Sql("INSERT INTO Bebidas(CategoriaId,Nome,Descricao,Preco,ImagemUrl,ImagemThumbmailUrl,EmEstoque)" +
-            $"VALUES(3,'Goiaba','Suco natural 300ml', 17.50,'{imagesHelper.ObterCaminhoURLBebidas("goiaba")}','{imagesHelper.ObterCaminhoURLBebidas("goiaba")}',1)");
+            $"VALUES(3,'Goiaba','Suco natural 300ml', 17.50,'{imagesHelper.ObterCaminhoURLBebidaNatural("goiaba")}','{imagesHelper.ObterCaminhoURLBebidaNatural("goiaba")}',1)");
             
             migrationBuilder.Sql("INSERT INTO Bebidas(CategoriaId,Nome,Descricao,Preco,ImagemUrl,ImagemThumbmailUrl,EmEstoque)" +
-            $"VALUES(3,'Laranja','Suco natural 300ml', 17.50,'{imagesHelper.ObterCaminhoURLBebidas("laranja")}','{imagesHelper.ObterCaminhoURLBebidas("laranja")}',1)");
+            $"VALUES(3,'Laranja','Suco natural 300ml', 17.50,'{imagesHelper.ObterCaminhoURLBebidaNatural("laranja")}','{imagesHelper.ObterCaminhoURLBebidaNatural("laranja")}',1)");
 
             migrationBuilder.Sql("INSERT INTO Bebidas(CategoriaId,Nome,Descricao,Preco,ImagemUrl,ImagemThumbmailUrl,EmEstoque)" +
-           $"VALUES(4,'Heineken','Logneck 450ml', 18.50,'{imagesHelper.ObterCaminhoURLBebidas("heineken")}','{imagesHelper.ObterCaminhoURLBebidas("heineken")}',1)");
+           $"VALUES(4,'Heineken','Logneck 450ml', 18.50,'{imagesHelper.ObterCaminhoURLBebidaAlcoolica("heineken")}','{imagesHelper.ObterCaminhoURLBebidaAlcoolica("heineken")}',1)");
 
             migrationBuilder.Sql("INSERT INTO Bebidas(CategoriaId,Nome,Descricao,Preco,ImagemUrl,ImagemThumbmailUrl,EmEstoque)" +
-            $"VALUES(4,'Itaipava','Longneck 450ml', 18.50,'{imagesHelper.ObterCaminhoURLBebidas("itaipava")}','{imagesHelper.ObterCaminhoURLBebidas("itaipava")}',1)");
+            $"VALUES(4,'Itaipava','Longneck 450ml', 18.50,'{imagesHelper.ObterCaminhoURLBebidaAlcoolica("itaipava")}','{imagesHelper.ObterCaminhoURLBebidaAlcoolica("itaipava")}',1)");
 
             migrationBuilder.Sql("INSERT INTO Bebidas(CategoriaId,Nome,Descricao,Preco,ImagemUrl,ImagemThumbmailUrl,EmEstoque)" +
-            $"VALUES(4,'Theresopolis','Longneck 450ml', 18.50,'{imagesHelper.ObterCaminhoURLBebidas("theresopolis")}','{imagesHelper.ObterCaminhoURLBebidas("theresopolis")}',1)");
+            $"VALUES(4,'Theresopolis','Longneck 450ml', 18.50,'{imagesHelper.ObterCaminhoURLBebidaAlcoolica("theresopolis")}','{imagesHelper.ObterCaminhoURLBebidaAlcoolica("theresopolis")}',1)");
         }
 
         /// <inheritdoc />

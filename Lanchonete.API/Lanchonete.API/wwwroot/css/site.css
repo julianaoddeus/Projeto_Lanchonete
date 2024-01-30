@@ -118,3 +118,11 @@ a {
     text-decoration: none;
 }
 
+.ativo {
+    color: #000;
+    border-bottom: 2px solid #ff6a00;
+    transition: border-bottom 0,3s ease;
+}
+.ativo:active {
+    border-bottom: #ff6a00;
+}

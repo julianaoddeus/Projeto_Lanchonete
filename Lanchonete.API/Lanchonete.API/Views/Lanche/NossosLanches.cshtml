@@ -4,31 +4,28 @@
 <div class="container">
 
     <h2>@Model.CategoriaAtual</h2>
-   
-        
-    <div class="card">
-        <div class="card-header">
-            <ul class="nav nav-tabs card-header-tabs">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="true" href="#">Lanches</a>
-                </li>
-                <li class="nav-item">
-                    <a asp-controller="Bebida" asp-action="Bebidas" class="nav-link">Bebidas</a>
-                </li>
-                <li class="nav-item">
-                    <a asp-controller="Sobremesa" asp-action="Sobremesas" class="nav-link">Sobremesas</a>
-                </li>
-            </ul>
-        </div>
-        <div class="card-body">
-            <div class="row card mb-3" id="lista-lanche">
-                @foreach (var lanche in Model.Lanches)
-                {
-                    <partial name="_LanchesResumo" for="@lanche" />
-                }
-            </div>
-        </div>
 
-</div>
+    <ul class="nav nav-tabs">
+        <li class="nav-item ativo">
+            <a class="nav-link" >Lanches</a>
+        </li>
+        <li class="nav-item">
+            <a asp-controller="Bebida" asp-action="Bebidas" class="nav-link ">Bebidas</a>
+        </li>
+        <li class="nav-item">
+            <a asp-controller="Sobremesa" asp-action="Sobremesas" class="nav-link">Sobremesas</a>
+        </li>
+    </ul>
+
+
+    <div class="row card mb-3" id="lista-lanche">
+        @foreach (var lanche in Model.Lanches)
+        {
+            <partial name="_LanchesResumo" for="@lanche" />            
+        }
+    </div>
+
+
+
 
 

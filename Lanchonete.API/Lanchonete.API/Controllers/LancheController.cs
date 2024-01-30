@@ -25,7 +25,7 @@ namespace Lanchonete.API.Controllers
             if (string.IsNullOrEmpty(categoria))
             {
                 lanches = _lancheRepositorio.Lanches.OrderBy(lanche => lanche.Id);
-                categoriaAtual = "Todos os lanches";
+                categoriaAtual = "Nossos Lanches";
             }
             else
             {

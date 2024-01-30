@@ -16,9 +16,15 @@ namespace Lanchonete.API.Common.Helper.ImagensHelper
             return $"~/imagens/lanches/natural/{nomeDaImagem}.png";
         }
 
-        public string ObterCaminhoURLBebidas(string nomeDaImagem)
+        public string ObterCaminhoURLBebidaNatural(string nomeDaImagem)
         {
-            return $"~/imagens/bebidas/{nomeDaImagem}.png";
+            return $"~/imagens/bebidas/sucos/{nomeDaImagem}.png";
+
+        }
+
+        public string ObterCaminhoURLBebidaAlcoolica(string nomeDaImagem)
+        {
+            return $"~/imagens/bebidas/cervejas/{nomeDaImagem}.png";
 
         }
 
