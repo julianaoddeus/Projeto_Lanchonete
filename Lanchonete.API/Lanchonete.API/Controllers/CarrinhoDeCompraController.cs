@@ -2,7 +2,6 @@
 using Lanchonete.API.Repositorios.Interfaces;
 using Lanchonete.API.ViewModels;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
 using System.Linq;
 
 namespace Lanchonete.API.Controllers

@@ -12,10 +12,18 @@ namespace Lanchonete.API.Controllers
     public class LancheController : Controller
     {
         private readonly ILancheRepositorio _lancheRepositorio;
+        private readonly IBebidaRepositorio _bebidaRepositorio;
+        private readonly ISobremesaRepositorio _sobremesaRepositorio;
 
-        public LancheController(ILancheRepositorio lancheRepositorio)
+        public LancheController(
+            ILancheRepositorio lancheRepositorio,
+            IBebidaRepositorio bebidaRepositorio,
+            ISobremesaRepositorio sobremesaRepositorio
+        )
         {
             _lancheRepositorio = lancheRepositorio;
+            _bebidaRepositorio = bebidaRepositorio;
+            _sobremesaRepositorio = sobremesaRepositorio;
         }
         public IActionResult NossosLanches(string categoria)
         {
@@ -50,6 +58,7 @@ namespace Lanchonete.API.Controllers
             return View(lanche);
 
         }
+
 
     }
 }
