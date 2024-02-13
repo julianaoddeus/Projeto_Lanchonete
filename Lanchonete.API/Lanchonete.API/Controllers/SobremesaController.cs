@@ -23,7 +23,7 @@ namespace Lanchonete.API.Controllers
             if (string.IsNullOrEmpty(categoria))
             {
                 sobremesas = _sobremesaRepositorio.Sobremesas.OrderBy(s => s.Id);
-                categoriaAtual = "Todos os lanches";
+                categoriaAtual = "Menu Sobremesas";
             }
             else
             {

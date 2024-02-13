@@ -2,24 +2,27 @@
 
 <div class="container">
 
-    <h2>@Model.CategoriaAtual</h2>
+    <h2 style="text-align: center; margin-top: 2rem;">@Model.CategoriaAtual</h2>
 
     <ul class="nav nav-tabs">
-        <li class="nav-item">
-            <a asp-controller="Lanche" asp-action="NossosLanches" class="nav-link">Lanches</a>
+        <li class="nav-item nav-menu">
+            <a asp-controller="Lanche" asp-action="Lanches" class="nav-link nav-menu">Lanches</a>
         </li>
-        <li class="nav-item ativo">
-            <a asp-controller="Bebida" asp-action="Bebidas" class="nav-link">Bebidas</a>
+        <li class="nav-item nav-menu ativo">
+            <a asp-controller="Bebida" asp-action="Bebidas" class="nav-link nav-menu">Bebidas</a>
         </li>
-        <li class="nav-item">
-            <a asp-controller="Sobremesa" asp-action="Sobremesas" class="nav-link">Sobremesas</a>
+        <li class="nav-item nav-menu">
+            <a asp-controller="Sobremesa" asp-action="Sobremesas" class="nav-link nav-menu">Sobremesas</a>
         </li>
     </ul>
 
-    <div class="row  mb-3" id="lista-lanche">
+
+    <div class="row mb-3 mt-5" id="lista-produto">
         @foreach (var bebida in Model.Bebidas)
         {
             <partial name="_BebidasResumo" for="@bebida" />
         }
     </div>
 
+
+</div>

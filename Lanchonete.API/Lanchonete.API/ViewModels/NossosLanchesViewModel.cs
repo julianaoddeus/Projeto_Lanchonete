@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Lanchonete.API.ViewModels
 {
-    public class NossosLanchesViewModel
+    public class LanchesViewModel
     {
         public IEnumerable<Lanche> Lanches { get; set; }
         public int CategoriaId { get; set; }

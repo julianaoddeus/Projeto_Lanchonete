@@ -25,7 +25,7 @@ namespace Lanchonete.API.Controllers
             _bebidaRepositorio = bebidaRepositorio;
             _sobremesaRepositorio = sobremesaRepositorio;
         }
-        public IActionResult NossosLanches(string categoria)
+        public IActionResult Lanches(string categoria)
         {
             IEnumerable<Lanche> lanches;
             string categoriaAtual = string.Empty;
@@ -33,7 +33,7 @@ namespace Lanchonete.API.Controllers
             if (string.IsNullOrEmpty(categoria))
             {
                 lanches = _lancheRepositorio.Lanches.OrderBy(lanche => lanche.Id);
-                categoriaAtual = "Todos os lanches";
+                categoriaAtual = "Menu Lanches";
             }
             else
             {
@@ -44,7 +44,7 @@ namespace Lanchonete.API.Controllers
                 categoriaAtual = categoria;
             }
 
-            var viewModel = new NossosLanchesViewModel
+            var viewModel = new LanchesViewModel
             {
                 Lanches = lanches,
                 CategoriaAtual = categoriaAtual
@@ -54,7 +54,7 @@ namespace Lanchonete.API.Controllers
 
         public IActionResult Details(int id)
         {
-            var lanche = _lancheRepositorio.Lanches.FirstOrDefault(w => w.Id == id);           
+            var lanche = _lancheRepositorio.Lanches.FirstOrDefault(w => w.Id == id);
             return View(lanche);
 
         }

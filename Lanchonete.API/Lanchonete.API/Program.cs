@@ -58,7 +58,7 @@ app.UseSession();
 app.MapControllerRoute(
     name: "categoriaFiltro",
     pattern: "Lanche/{action}/{categoria?}",
-    defaults: new { Controller = "Lanche", action="NossosLanches"});
+    defaults: new { Controller = "Lanche", action="Lanches"});
 
 app.MapControllerRoute(
     name: "default",

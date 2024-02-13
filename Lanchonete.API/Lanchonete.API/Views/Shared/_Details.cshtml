@@ -1,18 +1,18 @@
 ﻿@model Produto
 
 <div class="modal fade" id="detailModalLabel" tabindex="-1" aria-labelledby="detailModalLabelLabel" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog" style="color: #000">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="detailModalLabelLabel">Detalhes do @Model.Categoria.Nome</h5>
-                <a type="button" class="btn-close" asp-controller="Lanche" asp-action="NossosLanches"></a>
+                <a type="button" class="btn-close" asp-controller="Lanche" asp-action="Lanches"></a>
             </div>
             <div class="modal-body" style="text-align: center;">
-                <img style="width:340px;" src="~/imagens/lanches/natural/n-frango.png" />
+                <img style="width:340px;" src="@Model.ImagemUrl" />
                 <p>@Model.Nome</p>
                 <p>@Model.Descricao </p>
                 <div class="btn-group" role="group" aria-label="Basic example">
-                    <a type="button" class="btn btn-outline-info" asp-controller="Lanche" asp-action="NossosLanches">voltar ao cardápio</a>
+                    <a type="button" class="btn btn-outline-info" asp-controller="Lanche" asp-action="Lanches">voltar ao cardápio</a>
                     <a type="button" class="btn btn-danger" asp-controller="CarrinhoDeCompra" asp-action="AdicionarItemNoCarrinhoDeCompra" asp-route-id="@Model.Id">Adicionar @Model.Nome ao carrinho</a>
                 </div>
             </div>
